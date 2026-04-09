@@ -101,7 +101,7 @@ Filter `PARKING_SESSION` where `exit_time IS NULL`. Those are active sessions.
 ```
 /
 ├── README.md           ← this file
-└── erd_diagram.png     ← exported ER diagram image (if submitted separately)
+└── erd_diagram.png     ← exported ER diagram image 
 ```
 
 ---
