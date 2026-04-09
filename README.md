@@ -93,10 +93,6 @@ Filter `PARKING_SESSION` where `exit_time IS NULL`. Those are active sessions.
 
 ---
 
-## Tools Used
-
-- **Diagram tool:** Mermaid.js `erDiagram`
-- **Rendered in:** Claude.ai (Anthropic) using the Visualizer
 
 ---
 
@@ -110,13 +106,4 @@ Filter `PARKING_SESSION` where `exit_time IS NULL`. Those are active sessions.
 
 ---
 
-## About This Submission
 
-This was designed as a fresher-level database design exercise. The focus was on:
-
-- Normalizing data properly (no fat single-table designs)
-- Modeling real-world events like multi-day visits and spot reuse
-- Keeping entity responsibilities clean and separate
-- Making sure PK/FK relationships are logical and traceable
-
-The design avoids putting everything into one large table, which would make queries messy and updates risky.
